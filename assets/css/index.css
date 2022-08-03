@@ -1,13 +1,21 @@
-/* header image and logo placement */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Shadows+Into+Light&display=swap');
 
-#header {
-    height: 300px;
-    overflow: hidden;
+body {
+    font-family: 'PT sans', sans-serif;
 }
 
-#header-image {
-    background: no-repeat;
-    padding: 0;
-    bottom: 1000px;
+/* header text and nav links*/
+
+.header-text {
+    font-family:'Shadows Into Light', sans-serif ;
+    text-transform: uppercase;
+    color: green;
+    margin-left: 30%;
     position: relative;
+    font-size: 200%;
+    padding: 0;
 }
+
+/* hero image */
+
+
