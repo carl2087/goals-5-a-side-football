@@ -1,15 +1,13 @@
 /* header image and logo placement */
 
-.header-image {
+#header {
     height: 300px;
     overflow: hidden;
-    background: center center;
-    }
-
-#header-image {
-    zoom: 30%;
-    background-repeat: no-repeat;
-    position: relative;
-    bottom: 2400px;  
 }
 
+#header-image {
+    background: no-repeat;
+    padding: 0;
+    bottom: 1000px;
+    position: relative;
+}
