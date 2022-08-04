@@ -75,16 +75,19 @@ li > a {
 #about-us {
     float: left;
     margin-left: 20%;
+    margin-bottom: 50px;
 }
 
-#map {
+#address {
     float: right;
     margin-right: 20%;
+    margin-bottom: 50px;
 }
 
 #location {
     height: 150px;
-    width: 150px;
+    width: 300px;
+    
 }
 
 #about-us > p {
@@ -97,4 +100,30 @@ li > a {
     line-height: 30px;
     font-size: 150%;
 }
+
+/* footer */
+
+#footer {
+    height: 75px;
+    width: 100%;
+    background-color: rgb(0, 128, 0);
+    bottom: 0;
+    clear: both;
+    margin-top: 150px;    
+}
+
+#social-links {
+    text-align: center;
+    font-size: 200%;    
+}
+
+#social-links > li {
+    display: inline;
+    margin-right: 100px;
+}
+
+#social-links i {
+    color: white;
+}
+
 
