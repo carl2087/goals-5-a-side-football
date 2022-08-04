@@ -28,9 +28,8 @@ body {
 
 
 #navigation-links > li {
-    display: inline-block;
     margin-right: 20px;    
-    list-style-type: disc;
+    list-style-type: none;
     color: green;
     text-transform: uppercase;
     font-family: 'Shadows Into Light', sans-serif;
@@ -43,8 +42,19 @@ li > a {
     color: green;
 }
 
-
+#navigation-links a:hover {
+    border-bottom: 1px solid green;
+}
 
 /* hero image */
 
+#hero-image {
+        background-image: url('../images/three-males-playing-football.jpg') ;
+        background-position: 30%;
+        zoom: 80%;
+        height: 750px;
+        width: 100%;
+        margin-bottom: 300px;
+        overflow: hidden;
+        }
 
