@@ -65,7 +65,7 @@ li > a {
     font-family: 'Shadows Into Light', sans-serif; 
     color: green;
     text-transform: capitalize;
-    font-size: 200%;
+    font-size: 300%;
 }
 
 #about-us, #map {
@@ -87,7 +87,14 @@ li > a {
     width: 150px;
 }
 
+#about-us > p {
+    width: 400px;
+    line-height: 30px;
+    font-size: 150%;
+}
+
 #location > p {
-    line-height: 20px;
+    line-height: 30px;
+    font-size: 150%;
 }
 
