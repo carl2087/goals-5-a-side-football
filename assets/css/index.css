@@ -4,10 +4,11 @@
     margin: 0;
     padding: 0;
     border: 0;
+    color: green;
 }
 
 body {
-    font-family: 'PT sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* header text and nav links*/
@@ -39,6 +40,7 @@ body {
 
 li > a {
     text-decoration: none;
+    font-size: 150%;
     color: green;
 }
 
@@ -55,5 +57,37 @@ li > a {
         height: 750px;
         width: 100%;
         overflow: hidden;
-        }
+}
+
+/* Who are we section and google maps */
+
+.about {
+    font-family: 'Shadows Into Light', sans-serif; 
+    color: green;
+    text-transform: capitalize;
+    font-size: 200%;
+}
+
+#about-us, #map {
+    line-height: 75px;
+}
+
+#about-us {
+    float: left;
+    margin-left: 20%;
+}
+
+#map {
+    float: right;
+    margin-right: 20%;
+}
+
+#location {
+    height: 150px;
+    width: 150px;
+}
+
+#location > p {
+    line-height: 20px;
+}
 
