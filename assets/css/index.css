@@ -126,4 +126,16 @@ li > a {
     color: white;
 }
 
+/* gallery */
 
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    width: 100%;
+}
+
+#gallery > img {
+    width: 100%;
+}
