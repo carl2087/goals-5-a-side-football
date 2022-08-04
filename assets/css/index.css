@@ -53,8 +53,8 @@ li > a {
 #hero-image {
         background-image: url('../images/three-males-playing-football.jpg') ;
         background-position: 30%;
-        zoom: 80%;
-        height: 750px;
+        zoom: 65%;
+        height: 900px;
         width: 100%;
         overflow: hidden;
 }
