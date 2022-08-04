@@ -139,3 +139,14 @@ li > a {
 #gallery > img {
     width: 100%;
 }
+
+/* booking form */
+
+#form-header {
+    clear: both;
+    font-family: 'Shadows Into Light', sans-serif;
+}
+
+#booking-form {
+    clear: both;
+}
