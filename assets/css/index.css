@@ -146,9 +146,12 @@ li > a {
 #booking {
     width: 33%;
     background: green;
-    height: 60%;
+    height: 600px;
     margin: auto;
     clear: both;
+    text-align: center;
+    border-radius: 10%;
+    
 }
 
 #form-header {
@@ -161,9 +164,44 @@ li > a {
 
 #booking-form {
     text-align: center;
-    clear: both;
+    font-size: 150%;
 }
 
 #booking-form > label {
     color: white;
+}
+
+#date {
+    padding: 12px;
+    border-radius: 10%;
+}
+
+#lets-book {
+    padding: 12px;
+    border-radius: 10%;
+    margin-top: 10px;
+    border: solid 3px white;
+}
+
+#reset-form {
+    padding: 12px;
+    border-radius: 10%;
+    margin-top: 10px;
+    border: solid 3px white;
+}
+
+#lets-book:hover {
+    background-color: green;
+    color:white;
+}
+
+#reset-form:hover {
+    background-color: green;
+    color:white;
+}
+
+#time {
+    padding: 12px;
+    border-radius: 10%;
+    border: solid 3px white;
 }

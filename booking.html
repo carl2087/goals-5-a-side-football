@@ -43,21 +43,41 @@
         <h2 id="form-header">Book with us</h2>
         <form id="booking-form" method="post" action="https://formdump.codeinstitute.net/">
             <label for="fname">First Name</label>
+            <br>
             <input type="text" id="fname" name="first-name" required>
             <br>
             <label for="lname">Last Name</label>
+            <br>
             <input type="text" id="lname" name="last-name" required>
             <br>
             <label for="email">Email</label>
+            <br>
             <input type="email" id="email" name="email" required>
             <br>
             <label for="one-hour">One hour</label>
             <input type="radio" id="one-hour" name="booking-length" value="one-hour">
-            <label for="two-hours">Two hours</label>
-            <input type="radio" id="two-hours" name="booking-length" value="two-hour">
             <br>
-            <input type="submit" value="Lets book!">
-            <input type="reset" value="Reset form">
+            <label for="two-hours">Two hours</label>
+            <input type="radio" id="two-hours" name="booking-length" value="two-hour" required>
+            <br>
+            <input type="date" id="date" required>
+            <br>
+            <label for="time">Select Time</label>
+            <br>
+            <select id="time" name="time" required>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+                <option value="16:00">16:00</option>
+                <option value="17:00">17:00</option>
+                <option value="18:00">18:00</option>
+                <option value="19:00">19:00</option>
+                <option value="20:00">20:00</option>
+                <option value="21:00">21:00</option>
+            </select>
+            <br>
+            <input type="submit" value="Lets book!" id="lets-book">
+            <br>
+            <input type="reset" value="Reset form" id="reset-form">
         </form>
     </div>
     <footer>
