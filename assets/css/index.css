@@ -143,19 +143,19 @@ li > a {
 
 /* booking form */
 
-#booking {
-    width: 33%;
+#book-with-us {
+    width: 25%;
     background: green;
     height: 600px;
-    margin: auto;
-    clear: both;
+    margin-left: 15%;
+    clear: right;
     text-align: center;
     border-radius: 10%;
+    float: left;
     
 }
 
 #form-header {
-    clear: both;
     font-family: 'Shadows Into Light', sans-serif;
     text-align: center;
     color: white;
@@ -204,4 +204,17 @@ li > a {
     padding: 12px;
     border-radius: 10%;
     border: solid 3px white;
+}
+
+/* enrol a team */
+
+#enrol-a-team {
+    float: right;
+    width: 25%;
+    background: green;
+    height: 600px;
+    margin-right: 15%;
+    clear: right;
+    text-align: center;
+    border-radius: 10%;
 }
