@@ -430,4 +430,14 @@ th, td {
         column-count: 2;
     }
 
+    #book-with-us {
+        max-width: 90%;
+        max-height: fit-content;
+    }
+
+    #enrol-a-team {
+        max-width: 90%;
+        max-height: fit-content;
+    }
+
 }
