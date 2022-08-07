@@ -138,12 +138,15 @@ li > a {
     clear: both;
     line-height: 0;
     column-count: 4;
-    column-gap: 0;
-    width: 100%;
+    
+    max-width: 100%;
+    margin-bottom: 100px;
 }
 
 #gallery > img {
-    width: 100%;
+    max-width: 100%;
+    border: 2px solid white;
+    box-sizing: border-box;
 }
 
 /* booking form */
