@@ -290,6 +290,7 @@ th, td {
         float: none;
         margin: auto;
         clear: both;
+        margin-bottom: 150px;
     }
 }
 
