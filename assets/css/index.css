@@ -62,44 +62,40 @@ li > a {
         height: 900px;
         width: 100%;
         overflow: hidden;
+        margin-bottom: 40px;
 }
 
-/* Who are we section and google maps */
+/* Who are we section */
 
-.about {
-    font-family: 'Shadows Into Light', sans-serif; 
-    color: #0E8739;
-    text-transform: capitalize;
-    font-size: 300%;
-}
-
-#about-us, #map {
-    line-height: 75px;
-}
 
 #about-us {
     float: left;
     margin-left: 20%;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
+    text-align: center;
+    max-width: 400px;
+    
 }
 
-#address {
+#location {
+    height: 150px;
+    max-width: 400px;
+    text-align: center;
     float: right;
     margin-right: 20%;
     margin-bottom: 50px;
 }
 
-#location {
-    height: 150px;
-    width: 300px;
-    
+#about-us > p {
+    font-size: 150%;   
 }
 
-#about-us > p {
-    width: 400px;
-    line-height: 30px;
-    font-size: 150%;
-    margin-bottom: 150px;
+#about-us > h2 {
+    font-size: 300%;
+}
+
+#location > h2 {
+    font-size: 300%;
 }
 
 #location > p {
@@ -275,3 +271,46 @@ th, td {
     border: 1px solid #0E8739;
 }
 
+/* media queries */
+
+/* league tables screen size 1600px and down */
+
+@media screen and (max-with: 1600px) {
+    #over-50-table {
+        float: left;
+    }
+}
+
+/* for screen sizes 1300px and down */
+
+@media screen and (max-width: 1300px) {
+    .header-text {
+        font-size: 300%;
+        margin-bottom: 0;
+    }
+
+    #navigation-links {
+        float: left;
+        clear: both;
+        margin-left: 20px;
+        max-width: 100%;
+        font-size: 100%;
+    }
+
+    #about-us {
+        clear: both;
+        text-align: center;
+        max-width: 50%;
+        float: none;
+        margin: auto;
+    }
+
+    #location {
+        text-align: center;
+        clear: both;
+        max-width: 50%;
+        float: none;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
