@@ -275,9 +275,21 @@ th, td {
 
 /* league tables screen size 1600px and down */
 
-@media screen and (max-with: 1600px) {
+@media screen and (max-width: 1600px) {
+    #under-16-table {
+        margin-left: 15%;
+    }
+    
+    #over-16-table {
+        float: right;
+        margin-right: 15%;
+        clear: right;
+    }
+    
     #over-50-table {
-        float: left;
+        float: none;
+        margin: auto;
+        clear: both;
     }
 }
 
@@ -312,5 +324,29 @@ th, td {
         float: none;
         margin: auto;
         margin-top: 50px;
+    }
+
+    #under-16-table {
+        float: none;
+        margin: auto;
+        clear: both;
+        margin-bottom: 30px;
+        max-width: 60%;
+    }
+
+    #over-16-table {
+        float: none;
+        margin: auto;
+        clear: both;
+        margin-bottom: 30px;
+        max-width: 60%;
+    }
+
+    #over-50-table {
+        float: none;
+        margin: auto;
+        clear: both;
+        margin-bottom: 150px;
+        max-width: 60%;
     }
 }
