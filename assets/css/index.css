@@ -38,7 +38,8 @@ h1, h2 {
 
 
 #navigation-links > li {
-    margin-right: 20px;    
+    margin-right: 20px;
+    margin-left: 20px;    
     list-style-type: none;
     color: #0E8739;
     text-transform: uppercase;
@@ -384,18 +385,24 @@ th, td {
 
 @media screen and (max-width: 600px) {
 
+    #header {
+        margin-left: 10px;
+    }
+
     .header-text {
         font-size: 200%;
         line-height: 30px;
         margin-bottom: 20px;
+        
     }
 
     #navigation-links {
-        font-size: 60%;
+        font-size: 70%;
         line-height: 20px;
         text-align: center;
         margin-bottom: 20px;
         max-width: 100%;
+        margin-left: 10px;
     }
 
     #location {
@@ -405,6 +412,22 @@ th, td {
     #social-links i {
         max-width: 100%;
         margin-right: 10px;
+    }
+
+    #under-16-table {
+        margin-left: 15px;
+    }
+
+    #over-16-table {
+        margin-left: 15px;
+    }
+
+    #over-50-table {
+        margin-left: 15px;
+    }
+
+    #gallery {
+        column-count: 2;
     }
 
 }
