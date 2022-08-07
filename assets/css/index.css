@@ -151,7 +151,7 @@ li > a {
 /* booking form */
 
 #book-with-us {
-    width: 25%;
+    min-width: 33%;
     background: #0E8739;
     height: 600px;
     margin-left: 15%;
@@ -217,7 +217,7 @@ li > a {
 
 #enrol-a-team {
     float: right;
-    width: 25%;
+    min-width: 33%;
     background: #0E8739;
     height: 600px;
     margin-right: 15%;
@@ -352,5 +352,25 @@ th, td {
         clear: both;
         margin-bottom: 150px;
         max-width: 60%;
+    }
+
+    #gallery {
+        column-count: 3;
+    }
+
+    #book-with-us {
+        float: none;
+        margin: auto;
+        clear: both;
+        margin-bottom: 50px;
+        max-width: 50%;
+    }
+
+    #enrol-a-team {
+        float: none;
+        margin: auto;
+        clear: both;
+        margin-bottom: 100px;
+        max-width: 50%;
     }
 }
