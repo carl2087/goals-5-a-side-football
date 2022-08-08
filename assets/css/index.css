@@ -318,6 +318,10 @@ th, td {
         font-size: 100%;
     }
 
+    #hero-image {
+        zoom: 65%;
+    }
+
     #about-us {
         clear: both;
         text-align: center;
@@ -405,6 +409,10 @@ th, td {
         margin-left: 10px;
     }
 
+    #hero-image {
+        zoom: 55%;
+    }
+
     #location {
         margin-bottom: 250px;
     }
@@ -440,4 +448,22 @@ th, td {
         max-height: fit-content;
     }
 
+}
+
+@media screen and (max-width: 375px) {
+
+    .header-text {
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #navigation-links {
+        font-size: 50%;
+        margin: auto;
+    }
+
+    #hero-image {
+        zoom: 35%;
+    }
 }
