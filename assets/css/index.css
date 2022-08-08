@@ -308,12 +308,12 @@ th, td {
     .header-text {
         font-size: 300%;
         margin-bottom: 0;
+        margin-left: 20px
     }
 
     #navigation-links {
         float: left;
         clear: both;
-        margin-left: 20px;
         max-width: 100%;
         font-size: 100%;
     }
@@ -450,7 +450,7 @@ th, td {
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 490px) {
 
     .header-text {
         margin: auto;
@@ -465,5 +465,16 @@ th, td {
 
     #hero-image {
         zoom: 35%;
+    }
+
+    @media screen and (max-width: 390px) {
+
+        .header-text {
+            font-size: 130%;
+        }
+
+        #navigation-links {
+            font-size: 30%;
+        }
     }
 }
