@@ -188,26 +188,26 @@ li > a {
     border-radius: 10%;
 }
 
-#lets-book {
+.lets-book {
     padding: 12px;
     border-radius: 10%;
     margin-top: 10px;
     border: solid 3px whitesmoke;
 }
 
-#reset-form {
+.reset-form {
     padding: 12px;
     border-radius: 10%;
     margin-top: 10px;
     border: solid 3px whitesmoke;
 }
 
-#lets-book:hover {
+.lets-book:hover {
     background-color: #0E8739;
     color:whitesmoke;
 }
 
-#reset-form:hover {
+.reset-form:hover {
     background-color: #0E8739;
     color:white;
 }
