@@ -413,6 +413,10 @@ th, td {
         zoom: 55%;
     }
 
+    #about-us {
+        max-width: 95%;
+    }
+
     #location {
         margin-bottom: 250px;
     }
@@ -423,15 +427,15 @@ th, td {
     }
 
     #under-16-table {
-        margin-left: 15px;
+        margin-left: 35px;
     }
 
     #over-16-table {
-        margin-left: 15px;
+        margin-left: 35px;
     }
 
     #over-50-table {
-        margin-left: 15px;
+        margin-left: 35px;
     }
 
     #gallery {
