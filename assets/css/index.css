@@ -167,19 +167,19 @@ li > a {
     
 }
 
-#form-header {
+.form-header {
     font-family: 'Shadows Into Light', sans-serif;
     text-align: center;
     color: whitesmoke;
     font-size: 300%;
 }
 
-#booking-form {
+.booking-form {
     text-align: center;
     font-size: 150%;
 }
 
-#booking-form > label {
+.booking-form > label {
     color: whitesmoke;
 }
 
