@@ -488,14 +488,27 @@ th, td {
         zoom: 35%;
     }
 
+    #under-16-table {
+        margin-left: 10px;
+    }
+
+    #over-16-table {
+        margin-left: 10px;
+    }
+
+    #over-50-table {
+        margin-left: 10px;
+    }
+
     @media screen and (max-width: 390px) {
 
         .header-text {
             font-size: 130%;
+            margin-left: 30px;
         }
 
         #navigation-links {
-            font-size: 30%;
+            font-size: %;
         }
     }
 }
