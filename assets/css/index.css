@@ -158,7 +158,7 @@ li > a {
 #book-with-us {
     min-width: 33%;
     background: #0E8739;
-    height: 600px;
+    height: 650px;
     margin-left: 15%;
     clear: right;
     text-align: center;
@@ -193,6 +193,8 @@ li > a {
     border-radius: 10%;
     margin-top: 10px;
     border: solid 3px whitesmoke;
+    font-weight: bold;
+    font-size: 80%;
 }
 
 .reset-form {
@@ -200,6 +202,8 @@ li > a {
     border-radius: 10%;
     margin-top: 10px;
     border: solid 3px whitesmoke;
+    font-weight: bold;
+    font-size: 80%;
 }
 
 .lets-book:hover {
@@ -224,7 +228,7 @@ li > a {
     float: right;
     min-width: 33%;
     background: #0E8739;
-    height: 600px;
+    height: 650px;
     margin-right: 15%;
     clear: right;
     text-align: center;
@@ -382,6 +386,19 @@ th, td {
         clear: both;
         margin-bottom: 100px;
         max-width: 50%;
+    }
+}
+
+/* for screen sizes 950px and below */
+
+@media screen and (max-width: 950px) {
+
+    #book-with-us {
+        max-width: 80%;
+    }
+
+    #enrol-a-team {
+        max-width: 80%;
     }
 }
 
