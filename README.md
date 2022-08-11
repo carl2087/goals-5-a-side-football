@@ -16,4 +16,9 @@ The primary goal of the website is to get people from all walks of life to sign 
 
 ![screen shot of navigation bar](./assets/images/header.png)
 
+### Main image on landing page
+
+  * The main image on the landing page is of two males playing football to give a clear indication of what the site cators for.
+  * The image conveys a sense of what the site is about, football teamplay and fun.
+
 
