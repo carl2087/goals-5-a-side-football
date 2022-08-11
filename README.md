@@ -60,7 +60,35 @@ The primary goal of the website is to get people from all walks of life to sign 
 
   ![screen shot of booking form and join form](./assets/images/booking-page.png)
 
+## Potential future features
 
+  * Video highlights be added directly to website.
+  * Bigger variety of football leagues.
+  * Ability to pay on site for bookings.
+
+## Wireframes 
+
+ ### Below are wireframes that used to guide the design of the site although the site evolved quite a bit from these designs.
+
+  * This is a rough site map so I knew what I wanted to include in the site.
+
+  ![wireframe image of the site map](./assets/images/site-map-wireframe.png)
+
+  * The wireframe for the landing page.
+
+  ![wireframe image of the landing page](./assets/images/homepage-wireframe.png)
+
+  * The wireframe for the league table page.
+
+  ![wireframe image of the league table page](./assets/images/league-table-wireframe.png)
+
+  * The wireframe for the gallery page.
+
+  ![wireframe image of the gallery page](./assets/images/gallery-wireframe.png)
+
+  * The wireframe for the book with us page.
+
+  ![wireframe image of the book with us page](./assets/images/booking-wireframe.png)
 
 
 
