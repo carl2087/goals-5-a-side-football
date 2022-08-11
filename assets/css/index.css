@@ -511,4 +511,11 @@ th, td {
             font-size: 40%;
         }
     }
+
+    @media screen and (max-width: 350px) {
+
+        #navigation-links {
+            font-size: 30%;
+        }
+    }
 }

@@ -122,7 +122,27 @@ I tested the site using the jigsaw css validater and the W3C html validater. All
   * CSS validated book with us page
 
   ![image of the landing page validated css code](./assets/images/css-validated-book-with-us-page.png)
-  
+
+  * HTML validated landing page 
+
+  ![image of the landing page validated css code](./assets/images/html-validated-index-page.png)
+
+  * HTML validated league table page
+
+  ![image of the landing page validated css code](./assets/images/html-validated-league-table-page.png)
+
+  * HTML validated gallery page
+
+  ![image of the landing page validated css code](./assets/images/html-validated-gallery-page.png)
+
+  * HTML validated book with us page
+
+  ![image of the landing page validated css code](./assets/images/html-validated-book-with-us-page.png)
+
+  ## Deployment
+
+  The site was deployed to GitHub pages 
+
 
 
 
