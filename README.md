@@ -34,9 +34,18 @@ The primary goal of the website is to get people from all walks of life to sign 
 
   * The footer section includes four social media links for the company which all open in a new tab.
   * The footer is fixed to show on the bottom of the screen at all times encouraging the user to click the social media links and engage with the company in more ways.
+  * The footer is identical on every page to keep familiarity on the site.
 
   ![screen shot of footer](./assets/images/footer.png)
-  
+
+### League tables page
+
+  * The league tables page shows up to date league tables.
+  * This makes it easy for members of the leagues to see up to date results in a clear way.
+  * This drives repeat users to the site with an emotional attachment to see how there team compares to the other teams in the league.
+
+  ![screen shot of the league tables](./assets/images/league-tables.png)
+
 
 
 
