@@ -90,6 +90,14 @@ The primary goal of the website is to get people from all walks of life to sign 
 
   ![wireframe image of the book with us page](./assets/images/booking-wireframe.png)
 
+  * The wireframe for an ipad to see the site on a tablet device.
+
+  ![wireframe image of the website on an ipad](./assets/images/ipad-wireframe.png)
+
+  * The wireframe for an iphone to see the site on a mobile device.
+
+  ![wireframe image of the website on an iphone](./assets/images/iphone%20-wireframe.png)
+
 
 
 
