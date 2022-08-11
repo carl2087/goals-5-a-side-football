@@ -139,9 +139,7 @@ I tested the site using the jigsaw css validater and the W3C html validater. All
 
   ![image of the landing page validated css code](./assets/images/html-validated-book-with-us-page.png)
 
-  ## Deployment
-
-  The site was deployed to GitHub pages 
+  
 
 
 
