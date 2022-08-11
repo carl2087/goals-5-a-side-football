@@ -65,6 +65,7 @@ The primary goal of the website is to get people from all walks of life to sign 
   * Video highlights be added directly to website.
   * Bigger variety of football leagues.
   * Ability to pay on site for bookings.
+  * Google maps added to the site to make finding the company easier.
 
 ## Wireframes 
 
@@ -96,7 +97,35 @@ The primary goal of the website is to get people from all walks of life to sign 
 
   * The wireframe for an iphone to see the site on a mobile device.
 
-  ![wireframe image of the website on an iphone](./assets/images/iphone%20-wireframe.png)
+  ![wireframe image of the website on an iphone](./assets/images/iphone-wireframe.png)
+
+## Design choices
+
+   I decided to keep to a theme of green font and foreground colours on a white background as green is the colour of football pitches. This also keep a clear continuity with the theme throughout the site so that navigation can be very easy to learn and becomes familiar quickly. I also wanted to not have too many elements on each page as well to help the user of the site navigate and not be distracted unnecessarily.
+
+## Testing
+  
+I tested the site using the jigsaw css validater and the W3C html validater. All errors that were reported in the code have been fixed with pictures of the results below.
+
+  * CSS validated home page
+
+  ![image of the landing page validated css code](./assets/images/css-validated-index-page.png)
+
+  * CSS validated league tables page
+
+  ![image of the landing page validated css code](./assets/images/css-validated-league-table-page.png)
+
+  * CSS validated gallery page
+
+  ![image of the landing page validated css code](./assets/images/css-validated-gallery-page.png)
+
+  * CSS validated book with us page
+
+  ![image of the landing page validated css code](./assets/images/css-validated-book-with-us-page.png)
+  
+
+
+
 
 
 
