@@ -53,6 +53,14 @@ The primary goal of the website is to get people from all walks of life to sign 
 
   ![screen shot of gallery page](./assets/images/gallery-page.png)
 
+### Book with us page
+  
+  * The book with us page gives an easy and clear way to rent a pitch on a specific date and time. It also gives an easy and clear way to join a league with your own team.
+  * These options make life easier for the site user as they can do things themselves quickly.
+
+  ![screen shot of booking form and join form](./assets/images/booking-page.png)
+
+
 
 
 
