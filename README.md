@@ -46,6 +46,13 @@ The primary goal of the website is to get people from all walks of life to sign 
 
   ![screen shot of the league tables](./assets/images/league-tables.png)
 
+### Gallery page
+ 
+  * The gallery shows professionally taken pictures from moments within the football matches.
+  * This drives an emotional response from the site visitors to see their own pictures.
+
+  ![screen shot of gallery page](./assets/images/gallery-page.png)
+
 
 
 
