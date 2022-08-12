@@ -165,7 +165,7 @@ I tested the colour contrast on the site for accessibility using the website htt
 
 ![image of the colour contrast accessibility check](./assets/images/colour-contrast-checked.png)
 
-I also used the website https://ui.dev/amiresponsive to check the responsive design of the site the image is at the top of the readme file.
+I also used the website [Am I responsive](https://ui.dev/amiresponsive) to check the responsive design of the site the image is at the top of the readme file.
 
 ## Bug fixes and errors
 
@@ -186,6 +186,29 @@ I also used the website https://ui.dev/amiresponsive to check the responsive des
   5. In the source section, select branch Master and save.
   6. The page will produce the website URL that links to the site.
 
+## Credits
+
+### Code
+
+  * General code queries and issues were researched and answered with [W3 Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) also Google to issues I had with placing my footer.
+
+  * I used code from the Love running project to help with setting up the gallery page.
+
+  * I used code from the Love running project to underline my active page in the header.
+
+  * Notes made throughout the Code Institute course helped massively as well
+
+### Media 
+
+  * All pictures on the website were downloaded royalty free from [Pexels](https://www.pexels.com/)
+
+  * The footer icons were used from [Font Awesome](https://fontawesome.com/)
+
+  * The font families used were from [Google Fonts](https://fonts.google.com/)
+
+### Acknowledgements
+
+I would like to thank my mentor Victor Miclovich who has given me great advice and is very clear in explaining processes. I would also like to thank the Code Institute Slack community who are always ready to help if needed.
 
 
 
