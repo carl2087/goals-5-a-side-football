@@ -139,8 +139,27 @@ I tested the site using the jigsaw css validater and the W3C html validater. All
 
   ![image of the landing page validated css code](./assets/images/html-validated-book-with-us-page.png)
 
-  
+I also tested the site for mobile and desktop using Lighthouse which is part of the dev tools in Google Chrome browser, to get a quicker load time on mobile I ensured all images were compressed using the TinyPNG website.
 
+  * Lighthouse results of the landing page on desktop and mobile
+
+  ![image of lighthouse results landing page desktop](./assets/images/homepage-lighthouse.png)
+  ![image of lighthouse results landing page mobile](./assets/images/homepage-lighthouse-mobile.png)
+  
+  * Lighthouse results of the league table page on desktop and mobile
+
+  ![image of lighthouse results league table page desktop](./assets/images/league-table-lighthouse.png)
+  ![image of lighthouse results league table page mobile](./assets/images/league-table-lighthouse-mobile.png)
+
+  * Lighthouse results of the gallery page on desktop and mobile
+
+  ![image of lighthouse results gallery page desktop](./assets/images/gallery-lighthouse.png)
+  ![image of lighthouse results gallery page mobile](./assets/images/gallery-lighthouse-mobile.png)
+
+  * Lighthouse results of the book with us page on desktop and mobile
+
+  ![image of lighthouse results book with us page desktop](./assets/images/booking-lighthouse.png)
+  ![image of lighthouse results book with us page mobile](./assets/images/booking-lighthouse-mobile.png)
 
 
 
