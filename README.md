@@ -161,6 +161,31 @@ I also tested the site for mobile and desktop using Lighthouse which is part of 
   ![image of lighthouse results book with us page desktop](./assets/images/booking-lighthouse.png)
   ![image of lighthouse results book with us page mobile](./assets/images/booking-lighthouse-mobile.png)
 
+I tested the colour contrast on the site for accessibility using the website https://color.a11y.com/
+
+![image of the colour contrast accessibility check](./assets/images/colour-contrast-checked.png)
+
+I also used the website https://ui.dev/amiresponsive to check the responsive design of the site the image is at the top of the readme file.
+
+## Bug fixes and errors
+
+  * I found the gallery page was taking too long to load on mobile devices and a bit too long on desktops as well so I re-downloaded all of the images in a smaller size and also used https://tinypng.com/ to compress the images further to speed up loading times.
+
+  * Upon deploying the website I found that my images were not loading in the gallery and my CSS was also not loading I found that the file paths were incorrect so updated all file paths to correct the error in the code.
+
+  * I have tested the site extensively to ensure no bugs remain.
+
+## Deployment
+
+  I followed the steps below to deploy my website.
+
+  1. Log into GitHub.
+  2. Select the project repsitory I want to deploy.
+  3. Select settings in the above menu.
+  4. Select pages in the left hand side menu.
+  5. In the source section, select branch Master and save.
+  6. The page will produce the website URL that links to the site.
+
 
 
 
