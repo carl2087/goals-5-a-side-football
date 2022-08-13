@@ -138,11 +138,12 @@ li > a {
 
 /* gallery */
 
+/* I used code from the love running walkthrough project to help design the gallery */
+
 #gallery {
     clear: both;
     line-height: 0;
     column-count: 4;
-    
     max-width: 100%;
     margin-bottom: 100px;
 }
