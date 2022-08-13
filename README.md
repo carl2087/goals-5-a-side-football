@@ -188,6 +188,12 @@ I also used the website [Am I responsive](https://ui.dev/amiresponsive) to check
 
 ## Credits
 
+### Website 
+
+  * The name of the website was inspired by a 5 a side football league that has a facility in my home city of Liverpool.
+
+  * The team names in the leagues are just town/city names and are not related to any real life football teams.
+
 ### Code
 
   * General code queries and issues were researched and answered with [W3 Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) also Google to issues I had with placing my footer.
