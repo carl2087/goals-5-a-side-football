@@ -2,7 +2,7 @@
 
 ![screen shots of website on different devices](./assets/images/website-screenshot-on-devices.png)
 
-Goals! 5-a-side football is a website for a five a side football league based in Fife Scotland. It provides an easy way to join a football league with your own team, see the current league standings and also the ability to rent a football pitch for upto two hours at a time. The landing page has an about us section and also the address of the company. There are an additional three pages to access the league table standings, gallery, booking and joining form.
+Goals! 5-a-side football is a website for a five a side football league based in Fife Scotland. It provides an easy way to join a football league with your own team, see the current league standings and also the ability to rent a football pitch for up to two hours at a time. The landing page has an about us section and also the address of the company. There are an additional three pages to access the league table standings, gallery, booking and joining form.
 
 The primary goal of the website is to get people from all walks of life to sign up to join a league or rent a football pitch. Also to give people easy access to professional pictures taken from the games that have been played. 
 
@@ -18,7 +18,7 @@ The primary goal of the website is to get people from all walks of life to sign 
 
 ### Main image on landing page
 
-  * The main image on the landing page is of two males playing football to give a clear indication of what the site cators for.
+  * The main image on the landing page is of three males playing football to give a clear indication of what the site cators for.
   * The image conveys a sense of what the site is about, football, teamplay and fun.
 
   ![screen shot of 3 males playing football](./assets/images/main-image.png)
@@ -167,7 +167,7 @@ I tested the colour contrast on the site for accessibility using the website htt
 
 I also used the website [Am I responsive](https://ui.dev/amiresponsive) to check the responsive design of the site the image is at the top of the readme file.
 
-## Bug fixes and errors
+## Bug fixes 
 
   * I found the gallery page was taking too long to load on mobile devices and a bit too long on desktops as well so I re-downloaded all of the images in a smaller size and also used https://tinypng.com/ to compress the images further to speed up loading times.
 
