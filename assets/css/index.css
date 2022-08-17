@@ -80,6 +80,10 @@ li > a {
     
 }
 
+#about-us > p {
+    text-align: left;
+}
+
 #location {
     height: 150px;
     max-width: 400px;
