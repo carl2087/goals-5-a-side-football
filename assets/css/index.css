@@ -624,6 +624,10 @@ th,td {
             margin-left: 30px;
         }
 
+        #hero-image {
+            zoom: 15%;
+        }
+
     }
 
     @media screen and (max-width: 350px) {
