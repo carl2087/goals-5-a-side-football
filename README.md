@@ -208,7 +208,7 @@ I also used the website [Am I responsive](https://ui.dev/amiresponsive) to check
 
   * I used code from the Love running project to underline my active page in the header.
 
-  * I used code from this website https://alvarotrigo.com/blog/hamburger-menu-css-responsive/ to make the hamburger menu  I chnged one or two lines of code 
+  * I used code from this website https://codepen.io/alvarotrigo/pen/yLzaPVJto make the hamburger menu  I changed one or two lines of code 
     to suit my project as I only wanted the hamburger menu to appear on smaller device screens.
 
   * Notes made throughout the Code Institute course helped massively as well.
