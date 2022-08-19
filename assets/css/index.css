@@ -66,8 +66,8 @@ li > a {
 
 #hamburger-menu {
     
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: block;
     border: none;
     padding: 0px;
@@ -115,8 +115,7 @@ nav > h3 {
 }
 
 #hamburger-list > li {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 130%;
+    font-family: 'PT Sans', sans-serif;   
 }
 
 #hide-hamburger {

@@ -60,6 +60,12 @@ The primary goal of the website is to get people from all walks of life to sign 
 
   ![screen shot of booking form and join form](./assets/images/booking-page.png)
 
+### Hamburger menu
+
+  * I added a hamburger menu that only appears on smaller screen sizes to improve readability of site
+
+  ![screen shot of hamburger menu](./assets/images/hamburger-menu-screenshot.png)
+
 ## Potential future features
 
   * Video highlights be added directly to website.
@@ -202,7 +208,10 @@ I also used the website [Am I responsive](https://ui.dev/amiresponsive) to check
 
   * I used code from the Love running project to underline my active page in the header.
 
-  * Notes made throughout the Code Institute course helped massively as well
+  * I used code from this website https://alvarotrigo.com/blog/hamburger-menu-css-responsive/ to make the hamburger menu  I chnged one or two lines of code 
+    to suit my project as I only wanted the hamburger menu to appear on smaller device screens.
+
+  * Notes made throughout the Code Institute course helped massively as well.
 
 ### Media 
 
