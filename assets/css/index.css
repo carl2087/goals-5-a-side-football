@@ -64,6 +64,10 @@ li > a {
     display: none;
   }
 
+#hide-input {
+    display: none;
+}
+
 #hamburger-menu {
     
     width: 20px;
