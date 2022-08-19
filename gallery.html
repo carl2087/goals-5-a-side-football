@@ -16,16 +16,18 @@
     <header>
         <div>
 
-            <div>
-                <a href="index.html"><h1 class="header-text">Goals! 5-A-Side Football</h1></a>
+            <div id="header">
+                <a href="index.html">
+                    <h1 class="header-text">Goals! 5-A-Side Football</h1>
+                </a>
             </div>
             <nav>
                 <ul id="navigation-links">
                     <li>
-                        <a href="booking.html">Book With Us</a>                        
+                        <a href="booking.html">Book With Us</a>
                     </li>
                     <li>
-                        <a href="gallery.html" class="active">Gallery</a>                        
+                        <a href="gallery.html" class="active">Gallery</a>
                     </li>
                     <li>
                         <a href="league-table.html">League Tables</a>
@@ -35,39 +37,74 @@
                     </li>
                 </ul>
             </nav>
+            <!-- this code for the hamburger menu was sourced from a website I have fully credited this in the readme file-->
+            <div id="hide-hamburger">
+                <input type="checkbox" id="hamburger-input" class="burger-shower" />
+                <label id="hamburger-menu" for="hamburger-input">
+                    <nav id="sidebar-menu">
+                        <h3>Menu</h3>
+                        <br>
+                        <ul id="hamburger-list">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="league-table.html">League Tables</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html" class="active">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="booking.html">Book With Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </label>
+            </div>
+            <div class="overlay"></div>
         </div>
     </header>
-   <div id="gallery">
+    <div id="gallery">
         <img src="./assets/images/close-up-image-of-football-boot.jpg" alt="Close up image of a football boot">
         <img src="./assets/images/females-celebrating-a-goal.jpg" alt="Females celebrating a goal">
         <img src="./assets/images/foot-on-top-of-football.jpg" alt="Foot on top of a football">
         <img src="./assets/images/football-on-football-pitch.jpg" alt="Picture of a football">
         <img src="./assets/images/football-pitch-at-night.jpg" alt="Football pitch at night">
         <img src="./assets/images/female-sitting-on-football-pitch.jpg" alt="Female sitting on a football pitch">
-        <img src="./assets/images/group-of-males-kneeling-on-football-pitch.jpg" alt="Group of males kneeling on a football pitch">
+        <img src="./assets/images/group-of-males-kneeling-on-football-pitch.jpg"
+            alt="Group of males kneeling on a football pitch">
         <img src="./assets/images/two-females-playing-football.jpg" alt="Two females playing football">
         <img src="./assets/images/male-kicking-football.jpg" alt="Male kicking a football">
-        <img src="./assets/images/male-goalkeeper-diving-to-save-a-shot.jpg" alt="Male goalkeeper diving to save a shot">
+        <img src="./assets/images/male-goalkeeper-diving-to-save-a-shot.jpg"
+            alt="Male goalkeeper diving to save a shot">
         <img src="./assets/images/two-young-males-playing-football.jpg" alt="Two young males playing football">
         <img src="./assets/images/four-females-playing-football.jpg" alt="Four females playing football">
-   </div>
+    </div>
     <footer>
-            <div id="footer">
-                <ul id="social-links">
-                    <li>
-                        <a href="http://facebook.com" target="blank" rel="noopener" aria-label="Visit our Faceboook page (Opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="http://twitter.com" target="blank" rel="noopener" aria-label="Visit our Twitter page (Opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="http://instagram.com" target="blank" rel="noopener" aria-label="Visit our Instagram page (Opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="http://youtube.com" target="blank" rel="noopener" aria-label="Visit our Youtube page (Opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-                    </li>
-                </ul>
-            </div>
+        <div id="footer">
+            <ul id="social-links">
+                <li>
+                    <a href="http://facebook.com" target="blank" rel="noopener"
+                        aria-label="Visit our Faceboook page (Opens in a new tab)"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="http://twitter.com" target="blank" rel="noopener"
+                        aria-label="Visit our Twitter page (Opens in a new tab)"><i
+                            class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="http://instagram.com" target="blank" rel="noopener"
+                        aria-label="Visit our Instagram page (Opens in a new tab)"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="http://youtube.com" target="blank" rel="noopener"
+                        aria-label="Visit our Youtube page (Opens in a new tab)"><i
+                            class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
     </footer>
 
     <!-- font awesome script-->

@@ -24,7 +24,7 @@ h1, h2 {
     float: left;
     position: relative;
     font-size: 300%;
-    margin-left: 150px;
+    margin-left: 40px;
     
 }
 
@@ -58,6 +58,7 @@ li > a {
 }
 
 /* hamburger menu */
+/* the css code for the hamburger menu was sourced from a website I have credited this in the readme file */
 
 #hamburger-input{
     display: none;
@@ -393,7 +394,7 @@ th, td {
 
     .header-text {
         font-size: 300%;
-        margin-bottom: 0;
+        margin-bottom: 10px;
         margin-left: 20px
     }
 
@@ -509,11 +510,12 @@ have been unable to fit on the screen */
     }
 
     #header {
-        margin-left: 60px;
+        margin-left: 40px;
     }
 
     .header-text {
         line-height: 40px;
+        font-size: 200%;
     }
 
     #navigation-links {
