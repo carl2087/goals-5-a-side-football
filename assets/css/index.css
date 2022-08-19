@@ -11,34 +11,36 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
-h1, h2 {
-    font-family: 'Shadows Into Light', sans-serif ;
+h1,
+h2 {
+    font-family: 'Shadows Into Light', sans-serif;
 }
 
 /* header text and nav links*/
 
 .header-text {
-    font-family:'Shadows Into Light', sans-serif ;
+    font-family: 'Shadows Into Light', sans-serif;
     text-transform: uppercase;
     color: #0E8739;
     float: left;
     position: relative;
     font-size: 300%;
     margin-left: 40px;
-    
+
 }
 
 .active {
     border-bottom: #0E8739 solid 1px;
 }
 
-.header-text, #navigation-links {
+.header-text,
+#navigation-links {
     line-height: 75px;
 }
 
-#navigation-links > li {
+#navigation-links>li {
     margin-right: 20px;
-    margin-left: 20px;    
+    margin-left: 20px;
     list-style-type: none;
     color: #0E8739;
     text-transform: uppercase;
@@ -47,7 +49,7 @@ h1, h2 {
     float: right;
 }
 
-li > a {
+li>a {
     text-decoration: none;
     font-size: 150%;
     color: #0E8739;
@@ -62,22 +64,27 @@ li > a {
 
 #menu__toggle {
     opacity: 0;
-  }
-  #menu__toggle:checked + .menu__btn > span {
+}
+
+#menu__toggle:checked+.menu__btn>span {
     transform: rotate(45deg);
-  }
-  #menu__toggle:checked + .menu__btn > span::before {
+}
+
+#menu__toggle:checked+.menu__btn>span::before {
     top: 0;
     transform: rotate(0deg);
-  }
-  #menu__toggle:checked + .menu__btn > span::after {
+}
+
+#menu__toggle:checked+.menu__btn>span::after {
     top: 0;
     transform: rotate(90deg);
-  }
-  #menu__toggle:checked ~ .menu__box {
+}
+
+#menu__toggle:checked~.menu__box {
     left: 0 !important;
-  }
-  .menu__btn {
+}
+
+.menu__btn {
     position: fixed;
     top: 20px;
     left: 20px;
@@ -85,26 +92,30 @@ li > a {
     height: 26px;
     cursor: pointer;
     z-index: 1;
-  }
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
+}
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
     display: block;
     position: absolute;
     width: 100%;
     height: 2px;
     background-color: #0E8739;
     transition-duration: .5s;
-  }
-  .menu__btn > span::before {
+}
+
+.menu__btn>span::before {
     content: '';
     top: -8px;
-  }
-  .menu__btn > span::after {
+}
+
+.menu__btn>span::after {
     content: '';
     top: 8px;
-  }
-  .menu__box {
+}
+
+.menu__box {
     display: block;
     position: fixed;
     top: 0;
@@ -117,8 +128,9 @@ li > a {
     background-color: whitesmoke;
     box-shadow: 2px 2px 6px #0E8739;
     transition-duration: .5s;
-  }
-  .menu__item {
+}
+
+.menu__item {
     display: block;
     padding: 12px 24px;
     color: #0E8739;
@@ -127,10 +139,11 @@ li > a {
     font-weight: 600;
     text-decoration: none;
     transition-duration: .5s;
-  }
-  .menu__item:hover {
+}
+
+.menu__item:hover {
     background-color: whitesmoke;
-  }
+}
 
 #hide-hamburger {
     display: none;
@@ -139,13 +152,13 @@ li > a {
 /* hero image */
 
 #hero-image {
-        background-image: url('../images/three-males-playing-football.webp');
-        background-position: 30%;
-        zoom: 75%;
-        height: 900px;
-        width: 100%;
-        overflow: hidden;
-        margin-bottom: 40px;
+    background-image: url('../images/three-males-playing-football.webp');
+    background-position: 30%;
+    zoom: 75%;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 40px;
 }
 
 /* Who are we section */
@@ -156,10 +169,10 @@ li > a {
     margin-bottom: 150px;
     text-align: center;
     max-width: 400px;
-    
+
 }
 
-#about-us > p {
+#about-us>p {
     text-align: left;
 }
 
@@ -172,19 +185,19 @@ li > a {
     margin-bottom: 50px;
 }
 
-#about-us > p {
-    font-size: 150%;   
+#about-us>p {
+    font-size: 150%;
 }
 
-#about-us > h2 {
+#about-us>h2 {
     font-size: 300%;
 }
 
-#location > h2 {
+#location>h2 {
     font-size: 300%;
 }
 
-#location > p {
+#location>p {
     line-height: 30px;
     font-size: 150%;
 }
@@ -197,16 +210,16 @@ li > a {
     background-color: #0E8739;
     bottom: 0;
     clear: both;
-    position: fixed;    
+    position: fixed;
 }
 
 #social-links {
     text-align: center;
     font-size: 150%;
-    margin-bottom: 0;  
+    margin-bottom: 0;
 }
 
-#social-links > li {
+#social-links>li {
     display: inline;
     text-align: center;
     margin-bottom: 0;
@@ -229,7 +242,7 @@ li > a {
     margin-bottom: 100px;
 }
 
-#gallery > img {
+#gallery>img {
     max-width: 100%;
     border: 2px solid whitesmoke;
     box-sizing: border-box;
@@ -246,7 +259,7 @@ li > a {
     text-align: center;
     border-radius: 10%;
     float: left;
-    
+
 }
 
 .form-header {
@@ -262,7 +275,7 @@ li > a {
 }
 
 
-.booking-form > label {
+.booking-form>label {
     color: whitesmoke;
 }
 
@@ -298,12 +311,12 @@ li > a {
 
 .lets-book:hover {
     background-color: #0E8739;
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
 .reset-form:hover {
     background-color: #0E8739;
-    color:white;
+    color: white;
 }
 
 #time {
@@ -332,7 +345,7 @@ li > a {
     text-transform: uppercase;
 }
 
-th, td {
+th,td {
     padding: 10px;
     text-align: center;
     border: 1px solid #0E8739;
@@ -386,13 +399,13 @@ th, td {
     #under-16-table {
         margin-left: 15%;
     }
-    
+
     #over-16-table {
         float: right;
         margin-right: 15%;
         clear: right;
     }
-    
+
     #over-50-table {
         float: none;
         margin: auto;
@@ -513,8 +526,6 @@ th, td {
 }
 
 /* for screen sizes 600px and below */
-/* I have positioned the league tables the best I can for the screen sizes below to maximise the content shown without screen scrolling sideways but 
-have been unable to fit on the screen */
 
 @media screen and (max-width: 600px) {
 
@@ -522,8 +533,12 @@ have been unable to fit on the screen */
         display: block;
     }
 
+    th,td {
+        font-size: 80%;
+    }
+
     #header {
-        margin-left: 40px;
+        margin-left: 60px;
     }
 
     .header-text {
@@ -582,6 +597,14 @@ have been unable to fit on the screen */
         zoom: 20%;
     }
 
+    .header-text {
+        font-size: 150%;
+    }
+
+    th,td {
+        font-size: 70%;
+    }
+
     #under-16-table {
         margin-left: 10px;
     }
@@ -604,9 +627,17 @@ have been unable to fit on the screen */
     }
 
     @media screen and (max-width: 350px) {
-        
+
         .header-text {
-            margin: 0 20px 0 10px;
+            margin: 0 20px 0 5px;
+        }
+
+        table {
+            max-width: 100%;
+        }
+
+        th,td {
+            font-size: 50%;
         }
 
         #location {
