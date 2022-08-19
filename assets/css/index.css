@@ -434,6 +434,8 @@ th, td {
 }
 
 /* for screen sizes 600px and below */
+/* I have positioned the league tables the best I can for the screen sizes below to maximise the content shown without screen scrolling sideways but 
+have been unable to fit on the screen */
 
 @media screen and (max-width: 600px) {
 
