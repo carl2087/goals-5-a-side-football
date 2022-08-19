@@ -639,6 +639,11 @@ th,td {
             font-size: 50%;
         }
 
+        #location > h2 {
+            font-size: 250%;
+            margin-bottom: 30px;
+        }
+
         #location {
             margin-bottom: 400px;
         }
