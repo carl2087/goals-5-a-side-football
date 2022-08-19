@@ -24,7 +24,7 @@ h1, h2 {
     float: left;
     position: relative;
     font-size: 300%;
-    margin-left: 20px;
+    margin-left: 150px;
     
 }
 
@@ -55,6 +55,55 @@ li > a {
 
 #navigation-links a:hover {
     border-bottom: 1px solid #0E8739;
+}
+
+/* hamburger menu */
+
+#hamburger-input{
+    display: none;
+  }
+
+#hamburger-menu {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border: none;
+    padding: 0px;
+    margin: 20px;
+    background: linear-gradient(
+      to bottom, 
+      #0E8739, #0E8739 20%, 
+      white 20%, white 40%, 
+      #0E8739 40%, #0E8739 60%, 
+      white 60%, white 80%, 
+      #0E8739 80%, #0E8739 100%
+    );
+}
+
+#hamburger-menu #sidebar-menu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0.801);
+    padding: 0px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+#hamburger-input { 
+    display: none;
+  }
+
+  #hamburger-input:checked + #hamburger-menu #sidebar-menu {
+    visibility: visible;
+    left: 0;
+}
+#hamburger-input:checked ~ .overlay{
+  visibility: visible;
+  opacity: 0.4;
 }
 
 /* hero image */
