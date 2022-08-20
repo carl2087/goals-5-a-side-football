@@ -183,6 +183,8 @@ I also used the website [Am I responsive](https://ui.dev/amiresponsive) to check
 
 ## Deployment
 
+  The site is deployed here https://carl2087.github.io/goals-5-a-side-football/index.html
+  
   I followed the steps below to deploy my website.
 
   1. Log into GitHub.
