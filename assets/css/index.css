@@ -63,7 +63,7 @@ li>a {
 
 #menu__toggle {
     opacity: 0;
-    display: none;
+    display: none;    
 }
 
 #menu__toggle:checked+.menu__btn>span {
@@ -289,6 +289,7 @@ li>a {
     border-radius: 10%;
     font-weight: bold;
     font-size: 80%;
+    text-align: center;
 }
 
 .lets-book {
