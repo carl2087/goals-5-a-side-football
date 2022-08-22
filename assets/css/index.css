@@ -309,6 +309,8 @@ li>a {
     border: solid 3px whitesmoke;
     font-weight: bold;
     font-size: 80%;
+    background-color: #b2d1bc23;
+    color: whitesmoke;
 }
 
 .lets-book:hover {
@@ -318,7 +320,7 @@ li>a {
 
 .reset-form:hover {
     background-color: #0E8739;
-    color: white;
+    color: whitesmoke;
 }
 
 #time {
@@ -454,7 +456,7 @@ th,td {
     #location {
         text-align: center;
         clear: both;
-        max-width: 50%;
+        max-width: 70%;
         float: none;
         margin: auto;
         margin-top: 50px;
