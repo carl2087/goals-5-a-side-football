@@ -92,6 +92,7 @@ li>a {
     height: 26px;
     cursor: pointer;
     z-index: 1;
+    font-size: 0px;
 }
 
 .menu__btn>span,
@@ -324,6 +325,12 @@ li>a {
     padding: 12px;
     border-radius: 10%;
     border: solid 3px whitesmoke;
+}
+
+/* font-size made zero px so only placeholder text visible inside text boxes */
+
+.label-name {
+    font-size: 0px;
 }
 
 /* enrol a team */
