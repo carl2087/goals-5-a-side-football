@@ -1,6 +1,6 @@
 # Goals! 5-a-side football
 
-![screen shots of website on different devices](./assets/images/website-screenshot-on-devices.png)
+![screen shots of website on different devices](./assets/images/am-i-respons.png)
 
 Goals! 5-a-side football is a website for a five a side football league based in Fife Scotland. It provides an easy way to join a football league with your own team, see the current league standings and also the ability to rent a football pitch for up to two hours at a time. The landing page has an about us section and also the address of the company. There are an additional three pages to access the league table standings, gallery, booking and joining form.
 
